@@ -81,6 +81,7 @@ h2 {
 .link-primary {
   background-color: #fecaca;
   border-radius: 0.5rem;
+  color: black;
 }
 
 .center-container {
