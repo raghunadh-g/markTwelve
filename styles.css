@@ -1,0 +1,306 @@
+/* section to import font styles and colors */
+
+/* section to declare global variables */
+:root {
+  --primary-color: #fee2e2;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* navigation  */
+
+#nav {
+  background-color: var(--primary-color);
+  margin: 0;
+}
+
+.navigation {
+  padding: 2rem;
+  height: 4vh;
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-brand a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-pills {
+  display: inline;
+}
+.navigation li {
+  list-style-type: none;
+  padding: 1rem;
+
+  margin: 0.5rem;
+  display: inline;
+  font-size: 1.2rem;
+}
+
+.nav-pills a {
+  text-decoration: none;
+  padding: 0.7rem;
+  color: black;
+}
+
+.nav-pills a:hover {
+  background-color: #fecaca;
+  text-decoration: underline;
+  border-radius: 0.3rem;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+h2 {
+  margin: 3rem 0rem;
+  text-align: center;
+}
+
+/* styling body */
+.list-non-bullet {
+  list-style-type: none;
+  margin: 2rem;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  background-color: #fecaca;
+  border-radius: 0.5rem;
+}
+
+.center-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.section {
+  box-sizing: border-box;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+.ow {
+  background-color: #fef2f2;
+  border-radius: 0.5rem;
+}
+
+p {
+  line-height: 2rem;
+  text-align: justify;
+}
+
+/* styling area page */
+
+#area-block {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.area-label {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#area-heading {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.area-input {
+  border: 2px solid #fecaca;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+#area-button {
+  display: block;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 2rem auto;
+  border: 2px solid #fecaca;
+  background-color: #fecaca;
+  border-radius: 0.3rem;
+}
+
+#area-button:hover {
+  background-color: var(--primary-color);
+}
+
+/* styling hypoteneuse */
+
+#hypoteneuse-block {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.hypoteneuse-label {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#hypoteneuse-heading {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hypoteneuse-input {
+  border: 2px solid #fecaca;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+#hypoteneuse-button {
+  display: block;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 2rem auto;
+  border: 2px solid #fecaca;
+  background-color: #fecaca;
+  border-radius: 0.3rem;
+}
+
+#hypoteneuse-button:hover {
+  background-color: var(--primary-color);
+}
+
+.hypoteneuse-formula {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/* styling triangle */
+
+#tri-block {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.tri-label {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#tri-heading {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tri-input {
+  border: 2px solid #fecaca;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+#tri-button {
+  display: block;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 2rem auto;
+  border: 2px solid #fecaca;
+  background-color: #fecaca;
+  border-radius: 0.3rem;
+}
+
+#tri-button:hover {
+  background-color: var(--primary-color);
+}
+
+/* quiz */
+
+.hide {
+  display: none;
+}
+
+#quiz-header {
+  text-align: center;
+}
+
+.quiz-next,
+.quiz-prev {
+  margin-top: 1rem;
+}
+
+.quiz-prev:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.quiz-next:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.quiz-submit:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.quiz-content {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.options-list {
+  margin-bottom: 2rem;
+}
+
+.op {
+  margin: 2rem;
+}
+
+.quiz-score {
+  padding: 2rem;
+}
+
+/* styling footer */
+
+footer {
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+footer img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline;
+  padding: 1rem;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-left: 2.3rem;
+}
