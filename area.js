@@ -10,16 +10,21 @@ triangleButton.addEventListener("click", function () {
   let first = Number(firstAngle.value);
   let second = Number(secondAngle.value);
   let third = Number(thirdAngle.value);
-  console.log(first, second, third);
+
   let perimeter = Math.floor((first + second + third) / 2);
-  console.log(perimeter);
+
   let area =
     perimeter *
     (perimeter - first) *
     (perimeter - second) *
     (perimeter - third);
-  console.log(area);
+  let negFlag = false;
+  if (area < 0) {
+    negFlag = true;
+    area = -area;
+  }
   area = Math.sqrt(area);
+  if (negFlag) area = -area;
   show_ans.classList.remove("hide");
   show_ans.innerText = "Area: " + area;
 });
